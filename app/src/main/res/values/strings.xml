@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MorseVibe</string>
+    <string name="tagline">Feel Morse code. Turn notifications from specific apps into vibration patterns.</string>
+    <string name="access_on">Notification access: granted</string>
+    <string name="access_off">Notification access: not granted</string>
+    <string name="btn_open_access">Open notification access settings</string>
+    <string name="hint_restricted">If the switch is greyed out (Android 13+, sideloaded app): open App info → ⋮ → \"Allow restricted settings\", then try again.</string>
+    <string name="btn_open_appinfo">Open app info</string>
+    <string name="vib_info">Vibrator: %1$s · Intensity control: %2$s</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="master_switch">Vibrate for notifications</string>
+    <string name="btn_rules">App vibration rules</string>
+    <string name="btn_log">Notification log</string>
+    <string name="btn_settings">Vibration settings</string>
+    <string name="btn_practice">Practice</string>
+
+    <string name="title_rules">App vibration rules</string>
+    <string name="filter_hint">Search apps</string>
+    <string name="rule_none">No rule</string>
+    <string name="rule_summary">%1$s · %2$s</string>
+    <string name="state_on">on</string>
+    <string name="state_off">off</string>
+    <string name="rule_enabled">Vibrate for this app</string>
+    <string name="rule_input_hint">Text (e.g. SOS, K) or dots/dashes (e.g. .-.)</string>
+    <string name="rule_help">Letters and digits are converted to Morse code. You can also type dots and dashes directly; use a space between letters and / between words.</string>
+    <string name="rule_preview">Pattern: %1$s</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_test">Test</string>
+    <string name="no_vibrator">This device has no vibrator.</string>
+    <string name="loading">Loading apps…</string>
+
+    <string name="title_log">Notification log</string>
+    <string name="btn_clear">Clear</string>
+    <string name="log_empty">Nothing yet. Notifications received while access is granted show up here.</string>
+    <string name="log_hint">Android does not let apps read past notification history, so MorseVibe logs notifications from the moment access is granted (plus the ones currently in the shade). Tap an entry to set a rule for its app. ♪ = a rule vibrated.</string>
+
+    <string name="title_settings">Vibration settings</string>
+    <string name="sec_mode">How to tell dot from dash</string>
+    <string name="mode_length">By length (dot short, dash long)</string>
+    <string name="mode_intensity">By intensity (dot weak, dash strong)</string>
+    <string name="mode_intensity_unsupported">Intensity mode is unavailable: this device cannot control vibration intensity.</string>
+    <string name="sec_length">Length mode</string>
+    <string name="sec_intensity">Intensity mode</string>
+    <string name="dot_len">Dot length</string>
+    <string name="dash_len">Dash length</string>
+    <string name="intensity">Intensity</string>
+    <string name="dot_int">Dot intensity</string>
+    <string name="dash_int">Dash intensity</string>
+    <string name="unit_len">Dot/dash length</string>
+    <string name="sec_gaps">Pauses</string>
+    <string name="symbol_gap">Between dots/dashes</string>
+    <string name="letter_gap">Between letters</string>
+    <string name="word_gap">Between words</string>
+    <string name="sec_misc">Notifications</string>
+    <string name="ignore_ongoing">Ignore ongoing notifications (music, downloads…)</string>
+    <string name="log_enabled">Keep a notification log</string>
+    <string name="sec_test">Test</string>
+    <string name="test_hint">Text or dots/dashes</string>
+    <string name="btn_test_vibe">Vibrate</string>
+    <string name="btn_reset">Reset to defaults</string>
+    <string name="unit_ms">ms</string>
+
+    <string name="title_practice">Practice</string>
+    <string name="practice_help">Press Play, feel the vibration, and type the character you think it was.</string>
+    <string name="btn_play_next">Play next</string>
+    <string name="btn_replay">Replay</string>
+    <string name="answer_hint">Your answer</string>
+    <string name="btn_check">Check</string>
+    <string name="result_correct">Correct! %1$s</string>
+    <string name="result_wrong">Wrong. It was %1$s (%2$s)</string>
+    <string name="result_none">Press Play first.</string>
+    <string name="score">Score: %1$d / %2$d</string>
+    <string name="letters_only">Letters only (no digits)</string>
+    <string name="btn_chart">Show / hide Morse chart</string>
+</resources>
